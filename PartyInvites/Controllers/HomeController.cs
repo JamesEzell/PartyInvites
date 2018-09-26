@@ -10,9 +10,9 @@ namespace PartyInvites.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index()
+        public string Index()
         {
-            return View("My View");
+            return "Hello World!";
         }
 
     }
